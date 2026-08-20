@@ -54,6 +54,6 @@ describe('Automation Exercise - Signup', () => {
       const buttonText = $el.text();
       cy.log(buttonText);
     });
-    cy.contains('button','Test Cases').click();
+    cy.contains('button','TestCases').click();
   });
 });
